@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en"><Esri><MetaID>{587E2BE8-EE64-4D3E-843D-37A92E43088B}</MetaID><CreaDate>20101022</CreaDate><CreaTime>09275800</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Data Management Tools.tbx\DefineProjection" Date="20101022" Time="092758">DefineProjection E:\Leonard_GEO157\Lab04\statesp020.shp GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]] E:\Leonard_GEO157\Lab04\statesp020.shp</Process></lineage></DataProperties></Esri></metadata>

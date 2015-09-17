@@ -1,0 +1,893 @@
+Metadata:
+  Identification_Information:
+    Citation:
+      Citation_Information:
+        Originator: Kathy Haller, U.S. Geological Survey
+        Originator: Richard Dart, U.S. Geological Survey
+        Originator: Susan Rhea, U.S. Geological Survey
+        Publication_Date: 200501
+        Title: Quaternary Fault and Fold Database of the United States
+        Geospatial_Data_Presentation_Form: Vector digital data
+        Publication_Information:
+          Publication_Place: Reston, VA
+          Publisher: National Atlas of the United States
+        Online_Linkage: <http://nationalatlas.gov/atlasftp.html?openChapters=chpgeol#chpgeol>
+    Description:
+      Abstract:
+        This map layer contains locations and information on faults and associated
+        folds, in the United States, that are believed to be sources of
+        significant earthquakes (those of magnitude 6 or greater) during the past
+        1,600,000 years.
+
+      Purpose:
+        These data are intended for geographic display and analysis at the
+        national level, and for large regional areas.  The data should be
+        displayed and analyzed at scales appropriate for 1:250,000-scale data.
+        No responsibility is assumed by the National Atlas of the United States
+        in the use of these data.
+
+      Supplemental_Information:
+        The most up-to-date version of this data set as well as detailed
+        descriptions and references for each fault are available through the
+        online Quaternary Fault and Fold Database of the United States, at
+        <http://earthquake.usgs.gov/regional/qfaults/>.  In addition, in the
+        Earthquake Hazards Program Quaternary Faults and Fold Database viewer
+        <http://gldims.cr.usgs.gov/qfault/viewer.htm>, and in the National Atlas
+        Map Maker <http://nationalatlas.gov/natlas/Natlasstart.asp>, the geologic
+        structures are linked to the database.  The Quaternary Fault and Fold
+        Database of the United States is intended to be the USGS archive for
+        historic and ancient earthquake sources used in current and future
+        probabilistic seismic-hazard analyses.  The database summarizes important
+        information on paleoseismic (ancient earthquake) parameters, compiled from
+        thousands of journal articles, maps, theses, and other documents.  It
+        includes information on geographic, geologic, and paleoseismic parameters
+        that are deemed critical to making geologic-based assessments of seismic
+        hazards.  In addition, it provides narrative comments that clarify,
+        justify, or expound upon these parameters.
+
+    Time_Period_of_Content:
+      Time_Period_Information:
+        Single_Date/Time:
+          Calendar_Date: 2005
+      Currentness_Reference: Publication date
+    Status:
+      Progress: Complete
+      Maintenance_and_Update_Frequency: As needed
+    Spatial_Domain:
+      Bounding_Coordinates:
+        West_Bounding_Coordinate: -126.39
+        East_Bounding_Coordinate: -70.81
+        North_Bounding_Coordinate: 48.89
+        South_Bounding_Coordinate: 23.19
+
+    Keywords:
+      Theme:
+        Theme_Keyword_Thesaurus: ISO 19115 Topic Category
+        Theme_Keyword: geoscientificInformation
+      Theme:
+        Theme_Keyword_Thesaurus:
+          USGS Enterprise Web Thesaurus
+          <http://geo-nsdi.er.usgs.gov/thesaurus/alphabetical/theme.txt>
+        Theme_Keyword: Earthquakes
+        Theme_Keyword: Earthquake preparedness
+        Theme_Keyword: Paleoseismology
+        Theme_Keyword: Neotectonic processes
+      Theme:
+        Theme_Keyword_Thesaurus: None
+        Theme_Keyword: Faults
+        Theme_Keyword: Folds
+        Theme_Keyword: Quaternary faults
+      Place:
+        Place_Keyword_Thesaurus: None
+        Place_Keyword: USA
+        Place_Keyword: United States
+      Place:
+        Place_Keyword_Thesaurus:
+          U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of
+          Special Sovereignty, and Their Principal Administrative Divisions
+          (Federal Information Processing Standard 10-4):  Washington, DC,
+          National Institute of Standards and Technology.
+        Place_Keyword: Alabama
+        Place_Keyword: Arizona
+        Place_Keyword: Arkansas
+        Place_Keyword: California
+        Place_Keyword: Colorado
+        Place_Keyword: Connecticut
+        Place_Keyword: Delaware
+        Place_Keyword: District of Columbia
+        Place_Keyword: Florida
+        Place_Keyword: Georgia
+        Place_Keyword: Idaho
+        Place_Keyword: Illinois
+        Place_Keyword: Indiana
+        Place_Keyword: Iowa
+        Place_Keyword: Kansas
+        Place_Keyword: Kentucky
+        Place_Keyword: Louisiana
+        Place_Keyword: Maine
+        Place_Keyword: Maryland
+        Place_Keyword: Massachusetts
+        Place_Keyword: Michigan
+        Place_Keyword: Minnesota
+        Place_Keyword: Mississippi
+        Place_Keyword: Missouri
+        Place_Keyword: Montana
+        Place_Keyword: Nebraska
+        Place_Keyword: Nevada
+        Place_Keyword: New Hampshire
+        Place_Keyword: New Jersey
+        Place_Keyword: New Mexico
+        Place_Keyword: New York
+        Place_Keyword: North Carolina
+        Place_Keyword: North Dakota
+        Place_Keyword: Ohio
+        Place_Keyword: Oklahoma
+        Place_Keyword: Oregon
+        Place_Keyword: Pennsylvania
+        Place_Keyword: Rhode Island
+        Place_Keyword: South Carolina
+        Place_Keyword: South Dakota
+        Place_Keyword: Tennessee
+        Place_Keyword: Texas
+        Place_Keyword: Utah
+        Place_Keyword: Vermont
+        Place_Keyword: Virginia
+        Place_Keyword: Washington
+        Place_Keyword: West Virginia
+        Place_Keyword: Wisconsin
+        Place_Keyword: Wyoming
+    Access_Constraints: None
+    Use_Constraints:
+      None.  Acknowledgment of the Quaternary Faults and Fold Database, the
+      U.S. Geological Survey, and (or) the National Atlas of the United
+      States of America would be appreciated in products derived from
+      these data.
+    Point_of_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Kathleen M Haller
+          Contact_Organization: U.S. Geological Survey
+        Contact_Address:
+          Address_Type: Mailing address
+          Address: P.O. Box 25046
+          City: Denver
+          State_or_Province: CO
+          Postal_Code: 80225-0046
+          Country: USA
+        Contact_Voice_Telephone: 303-273-8616
+        Contact_Facsimile_Telephone: 303-273-8600
+        Contact_Electronic_Mail_Address: <http://earthquake.usgs.gov/contactus/sitemail.php>
+    Browse_Graphic:
+      Browse_Graphic_File_Name: <http://gldims.cr.usgs.gov/qfault/viewer.htm>
+      Browse_Graphic_File_Description: Viewer for the Quaternary Fault and Fold Database.
+      Browse_Graphic_File_Type: Online viewer
+    Native_Data_Set_Environment:
+      Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 4; ESRI
+      ArcCatalog 8.3.0.800
+  Data_Quality_Information:
+    Attribute_Accuracy:
+      Attribute_Accuracy_Report:
+        Fault characteristics, even where known in detail, are reported
+        in broad categories (for example "age less than 1,600,000 years").
+        The textual database contains more specific information about
+        each fault where details were available in published literature.
+    Completeness_Report:
+      Faults in Alaska and Hawaii are not included.  Data for California are
+      incomplete; not all faults are included.
+    Logical_Consistency_Report:
+      Due to substantial differences in the geological setting and tectonic
+      activity, the central and eastern United States appear to have fewer faults
+      active in the Quaternary.  This is partly a real phenomenon (the western US
+      has more tectonic activity) and partly a detection problem.  For example,
+      the glacial sediments that cover much of the eastern Midwest conceal the
+      evidence that would be used to infer movement along underlying faults in the
+      Quaternary.
+    Positional_Accuracy:
+      Horizontal_Positional_Accuracy:
+        Horizontal_Positional_Accuracy_Report:
+          Locations of faults were taken from published literature; these
+          investigations were carried out at a variety of scales of observation,
+          hence some faults will be located more precisely and accurately than
+          others.  In general the locations are accurate as observed on a
+          1:250,000 scale map, or within approximately 450 feet.
+
+    Lineage:
+      Source_Information:
+        Source_Citation:
+          Citation_Information:
+            Originator: U.S. Geological Survey
+            Publication_Date: 2004
+            Title: Quaternary Fault and Fold Database of the United States
+            Publication_Information:
+              Publication_Place: Denver, CO
+              Publisher: U.S. Geological Survey
+            Online_Linkage: <http://gldims.cr.usgs.gov/qfault/viewer.htm>
+        Type_of_Source_Media: Electronic mail system
+        Source_Time_Period_of_Content:
+          Time_Period_Information:
+            Single_Date/Time:
+              Calendar_Date: 2004
+          Source_Currentness_Reference: Publication date
+        Source_Citation_Abbreviation: QFAULT
+        Source_Contribution: Spatial and attribute information
+
+      Process_Step:
+        Process_Description:
+          The U.S. Geological Survey Earthquake Hazards Program provided a
+          shapefile that was modified for use in the National Atlas Map Maker.
+          The file was reprojected and the datum was converted from the North
+          American Datum of 1927 to the North American Datum of 1983.
+
+          In addition, in the area of overlapping polygons, two polygons were
+          created, one for "St Louis-Cape Giradeau liquefaction" and one for
+          "Wabash Valley liquefaction features".
+        Source_Used_Citation_Abbreviation: QFAULT
+        Process_Date: 200412
+
+  Spatial_Data_Organization_Information:
+    Direct_Spatial_Reference_Method: Vector
+    Point_and_Vector_Object_Information:
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: GT-polygon composed of chains
+        Point_and_Vector_Object_Count: 24
+      SDTS_Terms_Description:
+        SDTS_Point_and_Vector_Object_Type: Complete chain
+        Point_and_Vector_Object_Count: 45814
+
+  Spatial_Reference_Information:
+    Horizontal_Coordinate_System_Definition:
+      Geographic:
+        Latitude_Resolution: 0.000278
+        Longitude_Resolution: 0.000278
+        Geographic_Coordinate_Units: Decimal degrees
+      Geodetic_Model:
+        Horizontal_Datum_Name: North American Datum of 1983
+        Ellipsoid_Name: GRS1980
+        Semi-major_Axis: 6378137
+        Denominator_of_Flattening_Ratio: 298.257222
+
+  Entity_and_Attribute_Information:
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: Quaternary faults (described by qfaultl_25.dbf)
+        Entity_Type_Definition: Linear fault features in the conterminous United States.
+        Entity_Type_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Shape
+        Attribute_Definition: The representation of the entity in the data.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Polyline
+            Enumerated_Domain_Value_Definition:
+              1-dimensional element that may or may not surround a 2-dimensional
+              element.
+            Enumerated_Domain_Value_Definition_Source: ESRI GIS software
+      Attribute:
+        Attribute_Label: Qfaultl_25
+        Attribute_Definition: Internal feature number.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 1
+            Range_Domain_Maximum: 45814
+      Attribute:
+        Attribute_Label: Name
+        Attribute_Definition: The fault name.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid fault names.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <Blank>
+            Enumerated_Domain_Value_Definition: The fault name is unknown.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Code
+        Attribute_Definition:
+          A 3-digit code used for symbolizing faults.  Each digit has a particular
+          meaning:
+          >
+          >First digit: fault visibility code
+          >1 = Exposed
+          >2 = Concealed
+          >3 = Inferred
+          >
+          >Second digit: fault age code
+          >1 = Historic; referenced in dated recorded history, generally < 150
+          >    years
+          >2 = Holocene < 15,000 years
+          >3 = Late Quaternary < 130,000 years
+          >4 = Mid to late Quaternary < 750,000 years
+          >5 = Quaternary < 1,600,000 years
+          >6 = Class B; fault structures of questionable seismogenic origin that
+          >    may be older than the Quaternary
+          >
+          >Third digit: fault slip rate code
+          >1 = > 5 mm/year
+          >2 = 1 - 5 mm/year
+          >3 = 0.2 – 1 mm/year
+          >4 = < 0.2 mm/year
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid fault codes.
+      Attribute:
+        Attribute_Label: Num
+        Attribute_Definition: The fault index number, which is linked to the online fault database.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid fault index numbers.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <Blank>
+            Enumerated_Domain_Value_Definition:
+              There is no information about the fault available in the online
+              fault database.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Slip
+        Attribute_Definition:
+          A four-character code defining the fault type and slip direction.  The
+          first two characters describe the fault type:
+          >N_ = normal
+          >R_ = reverse
+          >SS = strike-slip
+          >T_ = thrust
+          >
+          The second two characters describe the slip direction:
+          >__ = no data
+          >C_ = center
+          >E_ = east
+          >LL = left lateral
+          >N_ = north
+          >NE = northeast
+          >NW = northwest
+          >RL = right lateral
+          >S_ = south
+          >SE = southeast
+          >SW = southwest
+          >W_ = west
+          >
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid slip codes.
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <Blank>
+            Enumerated_Domain_Value_Definition: The fault type and slip direction are not known.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Age
+        Attribute_Definition: The age of the fault in years.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <1,600,000
+            Enumerated_Domain_Value_Definition: The fault is less than 1,600,000 years old.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <750,000
+            Enumerated_Domain_Value_Definition: The fault is less than 750,000 years old.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <130,000
+            Enumerated_Domain_Value_Definition: The fault is less than 130,000 years old.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <15,000
+            Enumerated_Domain_Value_Definition: The fault is less than 15,000 years old.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <150
+            Enumerated_Domain_Value_Definition: The fault is historic (less than 150 years old.)
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Class B
+            Enumerated_Domain_Value_Definition:
+              Class B faults may or may not be seismogenic (capable of generating
+              earthquakes) and may be older than the Quaternary.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Unknown
+            Enumerated_Domain_Value_Definition:
+              The age is undetermined, but researchers believe that fault motion
+              occurred in the Quaternary.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Rate
+        Attribute_Definition:
+          The rate of motion obtained when the amount of offset is divided by the
+          time interval.  It is normalized to millimeters per year.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <0.2
+            Enumerated_Domain_Value_Definition: The rate of motion is less than 0.2 millimeters per year.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 0.2-1
+            Enumerated_Domain_Value_Definition: The rate of motion is 0.2 to 1 millimeters per year.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1-5
+            Enumerated_Domain_Value_Definition: The rate of motion is 1 to 5 millimeters per year.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: >5
+            Enumerated_Domain_Value_Definition: The rate of motion is greater than 5 millimeters per year.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Slipsense
+        Attribute_Definition:
+          The angle of dip of the fault and the relative direction of movement
+          across the fault.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Incomplete
+            Enumerated_Domain_Value_Definition:
+              The angle of dip and the relative direction of movement were not
+              reported in the referenced material for the fault.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: LeftLateral
+            Enumerated_Domain_Value_Definition:
+              Horizontal displacement along a fault such that, in plan view, the
+              side opposite the viewer appears to have moved to the left.  This
+              term is also known as sinistral.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Normal
+            Enumerated_Domain_Value_Definition:
+              A fault characterized by predominantly vertical displacement in
+              which the hanging wall moves downward with respect to the footwall
+              of the fault.  If the fault surface is exposed, the footwall is the
+              side onto which water would drip.  Generally, this type of fault is
+              a sign of tectonic extension.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Reverse
+            Enumerated_Domain_Value_Definition:
+              A fault in which the displacement is predominantly vertical, and
+              the hanging wall moves up with respect to the footwall.  The
+              footwall is the side of the fault onto which water would drip if the
+              fault is exposed.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: RightLateral
+            Enumerated_Domain_Value_Definition:
+              Horizontal displacement along a fault such that, in plan view, the
+              side opposite the viewer appears to have moved to the right.  This
+              term is also known as dextral.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Thrust
+            Enumerated_Domain_Value_Definition:
+              A fault of less than 45° dip in which the displacement is
+              predominantly vertical, and the hanging wall moves up with respect
+              to the footwall.  The footwall is the side of the fault onto which
+              water would drip if the fault is exposed.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Dipdirecti
+        Attribute_Definition:
+          The general direction of the fault dip which is the angle that the fault
+          is inclined from the horizontal plane.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Center
+            Enumerated_Domain_Value_Definition:
+              The direction of the dip is towards the center of a hole or
+              depression, as in a caldera or bowl.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: East
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the east.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: North
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the north.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Northeast
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the northeast.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Northwest
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the northwest.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: South
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the south.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Southeast
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the southeast.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Southwest
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the southwest.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Unspecified
+            Enumerated_Domain_Value_Definition: The direction of the dip is unknown.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Vertical
+            Enumerated_Domain_Value_Definition: The fault face is near vertical.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: West
+            Enumerated_Domain_Value_Definition: The direction of the dip is toward the west.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Acode
+        Attribute_Definition:
+          A code indicating the age of the fault in years before the present.  The
+          code is used for symbolizing the lines in the map service and the
+          National Atlas.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1
+            Enumerated_Domain_Value_Definition: The fault age is historic.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2
+            Enumerated_Domain_Value_Definition: The fault age is Holocene, <15,000 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 3
+            Enumerated_Domain_Value_Definition: The fault age is late Quaternary, <130,000 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 4
+            Enumerated_Domain_Value_Definition: The fault age is mid-late Quaternary, <750,000 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 5
+            Enumerated_Domain_Value_Definition: The fault age is Quaternary, <1,600,000 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6
+            Enumerated_Domain_Value_Definition:
+              The fault age is class B.  It is not thought to be seismogenic
+              (capable of producing earthquakes) and may be older than the
+              Quaternary.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Wwwurl
+        Attribute_Definition:
+          An identification code used to locate data in the online database.
+          This is used by the interactive map service at
+          <http://gldims.cr.usgs.gov/qfault/viewer.htm> and by
+          <http://nationalatlas.gov/natlas/Natlasstart.asp>
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 0
+            Enumerated_Domain_Value_Definition: No information about the fault is available in the online database.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 84
+            Range_Domain_Maximum: 35110
+
+    Detailed_Description:
+      Entity_Type:
+        Entity_Type_Label: Quaternary fault areas (described by qfaultp_25.dbf)
+        Entity_Type_Definition: Fault feature regions in the conterminous United States.
+        Entity_Type_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Shape
+        Attribute_Definition: The representation of the entity in the data.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: Polygon
+            Enumerated_Domain_Value_Definition: 2-dimensional element
+            Enumerated_Domain_Value_Definition_Source: ESRI GIS software
+      Attribute:
+        Attribute_Label: Area
+        Attribute_Definition:
+          The size of the shape in square coverage units.  In the distributed
+          file, coverage units represent square decimal degrees.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.002
+            Range_Domain_Maximum: 28.349
+      Attribute:
+        Attribute_Label: Perimeter
+        Attribute_Definition:
+          The perimeter of shape in coverage units.  In the distributed file,
+          coverage units represent decimal degrees.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 0.191
+            Range_Domain_Maximum: 28.754
+      Attribute:
+        Attribute_Label: Qfaultp_25
+        Attribute_Definition: Internal feature number.
+        Attribute_Definition_Source: National Atlas of the United States
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 2
+            Range_Domain_Maximum: 25
+      Attribute:
+        Attribute_Label: Name
+        Attribute_Definition: The name of the fault region.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid fault region names.
+      Attribute:
+        Attribute_Label: Age_class
+        Attribute_Definition:
+          A code indicating the age of the faults in years before the present.
+          The code is used for symbolizing the area in the map service and the
+          National Atlas.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 1
+            Enumerated_Domain_Value_Definition: The fault age is historic, <150 years - 400 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 2
+            Enumerated_Domain_Value_Definition: The fault age is Holocene < 15,000 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 3
+            Enumerated_Domain_Value_Definition: The fault age is late Quaternary < 130,000 years.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 6
+            Enumerated_Domain_Value_Definition:
+              The fault age is class B.  It is not thought to be seismogenic, and
+              may be older than the Quaternary.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Num
+        Attribute_Definition: The fault index number(s), which is linked to the online database.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Unrepresentable_Domain: There is no predefined set of valid fault index numbers.
+      Attribute:
+        Attribute_Label: Age
+        Attribute_Definition: The age of the faults in years before the present.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <1,600,000
+            Enumerated_Domain_Value_Definition: The faults are less than 1,600,000 years old.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <15,000
+            Enumerated_Domain_Value_Definition: The faults are less than 15,000 years old.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: nodata
+            Enumerated_Domain_Value_Definition: No data are available to determine the fault ages.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: various
+            Enumerated_Domain_Value_Definition: Multiple ages were reported.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Rate
+        Attribute_Definition:
+          The rate of motion obtained when the amount of offset is divided by the
+          time interval.  It is normalized to millimeters per year.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: <0.2
+            Enumerated_Domain_Value_Definition: The rate of motion is less than 0.2 millimeters per year.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: nodata
+            Enumerated_Domain_Value_Definition: The rate of motion is unknown; no data is available.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: too few data
+            Enumerated_Domain_Value_Definition: Not enough data are available to determine the rate of motion.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Slipsense
+        Attribute_Definition:
+          The angle of dip of the faults and the relative direction of movement
+          across the faults.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: nodata
+            Enumerated_Domain_Value_Definition: No data is available to determine the angle of dip.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: normal
+            Enumerated_Domain_Value_Definition:
+              A fault characterized by predominantly vertical displacement in
+              which the hanging wall moves downward with respect to the footwall
+              of the fault.  If the fault surface is exposed, the footwall is the
+              side onto which water would drip.  Generally, this type of fault is
+              a sign of tectonic extension.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: sinistral
+            Enumerated_Domain_Value_Definition:
+              Horizontal displacement along a fault such that, in plan view, the
+              side opposite the viewer appears to have moved to the left.  This
+              term is also known as left lateral.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: various
+            Enumerated_Domain_Value_Definition: Faults are in a combination of dip directions.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Dipdirection
+        Attribute_Definition:
+          The general direction of the fault dip, which is the angle that a
+          fault is inclined from the horizontal plane.
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: S, N
+            Enumerated_Domain_Value_Definition: The dips are toward the south and the north.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: SE, NW
+            Enumerated_Domain_Value_Definition: The dips are toward the southeast and the northwest.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: SW
+            Enumerated_Domain_Value_Definition: The dips are toward the southwest.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: SW, NE
+            Enumerated_Domain_Value_Definition: The dips are toward the southwest and the northeast.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: V, SW
+            Enumerated_Domain_Value_Definition: The dips are toward the southwest and the vertical.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: nodata
+            Enumerated_Domain_Value_Definition: The direction of the dips is unknown.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: various
+            Enumerated_Domain_Value_Definition: The direction of the dips varies.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+      Attribute:
+        Attribute_Label: Wwwurl
+        Attribute_Definition:
+          An identification code used to locate data in the online database.
+          This is used by the interactive map service at
+          <http://gldims.cr.usgs.gov/qfault/viewer.htm> and by
+          <http://nationalatlas.gov/natlas/Natlasstart.asp>
+        Attribute_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Enumerated_Domain:
+            Enumerated_Domain_Value: 0
+            Enumerated_Domain_Value_Definition: No information about the fault is available in the online database.
+            Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Attribute_Domain_Values:
+          Range_Domain:
+            Range_Domain_Minimum: 33814
+            Range_Domain_Maximum: 34137
+
+  Distribution_Information:
+    Distributor:
+      Contact_Information:
+        Contact_Organization_Primary:
+          Contact_Organization: Earth Science Information Center, U.S. Geological Survey
+        Contact_Address:
+          Address_Type: Mailing address
+          Address: 507 National Center
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+        Contact_Voice_Telephone: 1-888-ASK-USGS (1-888-275-8747)
+        Contact_Voice_Telephone: 703-648-5920
+        Contact_Instructions:
+          In addition to the address above there are other ESIC offices throughout
+          the country.  A full list of these offices is at
+          <http://ask.usgs.gov/esic_index.html>.
+
+    Distribution_Liability:
+      Although these data have been processed successfully on a computer system at
+      the U.S. Geological Survey, no warranty expressed or implied is made by the
+      U.S. Geological Survey regarding the utility of the data on any other
+      system, nor shall the act of distribution constitute any such warranty.  No
+      responsibility is assumed by the U.S. Geological Survey in the use of these
+      data.
+
+    Standard_Order_Process:
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: ESRI Shapefile
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: <http://nationalatlas.gov/atlasftp.html?openChapters=chpgeol#chpgeol>
+      Digital_Form:
+        Digital_Transfer_Information:
+          Format_Name: SDTS
+        Digital_Transfer_Option:
+          Online_Option:
+            Computer_Contact_Information:
+              Network_Address:
+                Network_Resource_Name: <http://nationalatlas.gov/atlasftp.html?openChapters=chpgeol#chpgeol>
+      Fees: There is no charge for the map layer.
+
+  Metadata_Reference_Information:
+    Metadata_Date: 20060808
+    Metadata_Contact:
+      Contact_Information:
+        Contact_Person_Primary:
+          Contact_Person: Peg Rawson
+          Contact_Organization: National Atlas of the United States
+        Contact_Address:
+          Address_Type: Mailing and physical address
+          Address: 12201 Sunrise Valley Dr
+          Address: MS 561
+          City: Reston
+          State_or_Province: VA
+          Postal_Code: 20192
+        Contact_Voice_Telephone: 703-648-4183
+        Contact_Electronic_Mail_Address: atlasmail@usgs.gov
+    Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+    Metadata_Standard_Version: FGDC-STD-001-1998
+    Metadata_Security_Information:
+      Metadata_Security_Classification_System: None
+      Metadata_Security_Classification: Unclassified
+      Metadata_Security_Handling_Description: None

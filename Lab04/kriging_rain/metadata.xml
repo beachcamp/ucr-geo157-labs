@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en"><Esri><MetaID>{89641096-4ECA-4437-AA64-A984C07F6B78}</MetaID><CreaDate>20101022</CreaDate><CreaTime>11050700</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Kriging" Date="20101022" Time="110508">Kriging rain_locs_with_rain rain_2006 E:\Leonard_GEO157\Lab04\Kriging_rain "Exponential 0.036000 32.172237 1396.100829 160.417862" 0.036 "VARIABLE 12" #</Process></lineage></DataProperties></Esri></metadata>

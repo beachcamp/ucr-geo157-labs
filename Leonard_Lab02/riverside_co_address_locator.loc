@@ -1,0 +1,282 @@
+Category = Address
+Description = US Streets with Zone
+
+Version = 9.3
+UseRelativePaths = TRUE
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Properties Required by ArcGIS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+CLSID = {B5D3AB87-EED1-11D3-9F76-00C04F8ED1C4}
+ArcGIS::CLSID = {B5D3AB87-EED1-11D3-9F76-00C04F8ED1C4}
+SDE::CLSID = {04FCADCF-ED3B-11D2-9F48-00C04F8ED1C4}
+UICLSID = {AE5A3A0E-F756-11D2-9F4F-00C04F8ED1C4}
+
+Fields = Street
+Fields = Zone
+
+FieldAliases = Street or Intersection
+FieldAliases = Zone
+
+FieldNames.0 = Address
+FieldNames.0 = Addr
+FieldNames.0 = Street
+
+FieldNames.1 = Zip
+FieldNames.1 = Zipcode
+FieldNames.1 = City
+FieldNames.1 = Zone
+
+FieldsRequired = TRUE
+FieldsRequired = FALSE
+
+FieldSizes = 60
+FieldSizes = 40
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Fundamental Locator Properties
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+Locator.CLSID = {D9052385-AB46-11d2-AADA-00C04FA379E3}
+Locator.FactoryCLSID = {68F5E953-06FF-11d3-AAFD-00C04FA379E3}
+Locator.FactoryLibrary = mtchloc
+Locator.Library = mtchloc
+
+Query.CLSID = {1845B140-FC3B-11d2-AAFA-00C04FA379E3}
+Query.Library = mtchloc
+
+DBEnv.CLSID = {43BA3ECC-0120-11d4-AB58-00C04FA379E3}
+DBEnv.Library = LocationQueryEngine
+
+ArcGIS::DBEnv.CLSID = {43BA3ECC-0120-11d4-AB58-00C04FA379E3}
+ArcGIS::DBEnv.Library = LocationQueryEngine
+
+SDE::DBEnv.CLSID = {78E9FDDC-001A-11d4-AB58-00C04FA379E3}
+SDE::DBEnv.Library = mtchloc
+
+MKeyField = XX
+MKeyField = ZN
+
+SupportIntersections = TRUE
+Interpolate = TRUE
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  ESRI Geocoder Optional Properties
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+FileMAT = us_addr1.mat
+FileSTN = us_addr.stn
+IntFileMAT = us_intsc1.mat
+IntFileSTN = us_intsc.stn
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  ESRI Geocoder Misc Optional Properties
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+IntersectionConnectors = & | @
+MinimumMatchScore = 60
+MinimumCandidateScore = 10
+EndOffset = 3
+SideOffset = 20
+SideOffsetUnits = Feet
+SpellingSensitivity = 80
+MatchIfScoresTie = TRUE
+WriteXYCoordFields = FALSE
+WriteStandardizedAddressField = FALSE
+WriteReferenceIDField = FALSE
+WritePercentAlongField = FALSE
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  ESRI Geocoder Specific - aliases for standardization fields
+;  (Names shown on the Geocoding Interactive Review Dialog)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+MKeyAlias.D1 = SufDir1
+MKeyAlias.D2 = SufDir2
+MKeyAlias.E1 = PreType1
+MKeyAlias.E2 = PreType2
+MKeyAlias.HN = HouseNum
+MKeyAlias.P1 = PreDir1
+MKeyAlias.P2 = PreDir2
+MKeyAlias.PD = PreDir
+MKeyAlias.PT = PreType
+MKeyAlias.S1 = StreetName1
+MKeyAlias.S2 = StreetName2
+MKeyAlias.SD = SufDir
+MKeyAlias.SN = StreetName
+MKeyAlias.ST = SufType
+MKeyAlias.T1 = SufType1
+MKeyAlias.T2 = SufType2
+MKeyAlias.ZN = Zone
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Reference Data Properties
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.Table = Table1,"Primary table"
+
+RD.Table1.Column = LeftFrom,"House From Left",N,TRUE
+RD.Table1.Column = LeftTo,"House To Left",N,TRUE
+RD.Table1.Column = RightFrom,"House From Right",N,TRUE
+RD.Table1.Column = RightTo,"House To Right",N,TRUE
+RD.Table1.Column = PreDir,"Prefix Direction",N,FALSE
+RD.Table1.Column = PreType,"Prefix Type",N,FALSE
+RD.Table1.Column = StreetName,"Street Name",N,TRUE
+RD.Table1.Column = StreetType,"Street Type",N,FALSE
+RD.Table1.Column = SufDir,"Suffix Direction",N,FALSE
+RD.Table1.Column = LeftZone,"Left Zone",N,TRUE
+RD.Table1.Column = RightZone,"Right Zone",N,TRUE
+RD.Table1.Column = ID,"Record ID for the Primary table",N,TRUE
+RD.Table1.Column = Shape,"Shape column",N,TRUE
+
+RD.Table1.Filter = esriCatalog.GxFilterFeatureClasses
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Index tables
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.IdxTable = IdxTable1,"IndexTable for Primary table"
+
+RD.IdxTable1.IdxColumn = XID,"Soundex foreign key column",Y,$Table1.ID
+RD.IdxTable1.IdxColumn = Sx,"Soundex code column",Y,@SDEX($Table1.StreetName)
+RD.IdxTable1.IdxColumn = ZoneL,"Left zone column",Y,@ZNSX($Table1.LeftZone)
+RD.IdxTable1.IdxColumn = ZoneR,"Right zone column",Y,@ZNSX($Table1.RightZone)
+
+RD.IdxTable1.Prefix = GC_SZS
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Queries
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.Query = Query1,"Main query"
+RD.LeftIntsecQuery = ILQuery,"Left Intersection Query"
+RD.RightIntsecQuery = IRQuery,"Right Intersection Query"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Address Queries
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.Query1.Where = $IdxTable1.Sx = '@SDEX(%SN%)'
+RD.Query1.ConditionalWhere = ZN, " AND ($IdxTable1.ZoneL = '@ZNSX(%ZN%)' OR $IdxTable1.ZoneR = '@ZNSX(%ZN%)')"
+RD.Query1.FallbackWhere = SN, $IdxTable1.Sx = '@SDEX(%SN%)'
+RD.Query1.Filter = @SpellSens(%SN%, $Table1.StreetName)
+RD.Query1.InvariantWhere = " AND $Table1.ID = $IdxTable1.XID"
+RD.Query1.Lox = Lox1
+
+RD.Query1.MF = LeftFrom,Table1.LeftFrom
+RD.Query1.MF = LeftTo,Table1.LeftTo
+RD.Query1.MF = RightFrom,Table1.RightFrom
+RD.Query1.MF = RightTo,Table1.RightTo
+RD.Query1.MF = PreDir,Table1.PreDir
+RD.Query1.MF = PreType,Table1.PreType
+RD.Query1.MF = StreetName,Table1.StreetName
+RD.Query1.MF = StreetType,Table1.StreetType
+RD.Query1.MF = SufDir,Table1.SufDir
+RD.Query1.MF = LeftZone,Table1.LeftZone
+RD.Query1.MF = RightZone,Table1.RightZone
+RD.Query1.MF = Shape,Table1.Shape
+RD.Query1.MF = ID,Table1.ID
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Intersection Queries
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.ILQuery.Where = $IdxTable1.Sx = '@SDEX(%S1%)'
+RD.ILQuery.ConditionalWhere = ZN, " AND ($IdxTable1.ZoneL = '@ZNSX(%ZN%)' OR $IdxTable1.ZoneR = '@ZNSX(%ZN%)')"
+RD.ILQuery.Filter = @SpellSens(%S1%, $Table1.StreetName)
+RD.ILQuery.InvariantWhere = " AND $Table1.ID = $IdxTable1.XID"
+RD.ILQuery.Lox = Lox1
+
+RD.ILQuery.MF = PreDir1,Table1.PreDir
+RD.ILQuery.MF = PreType1,Table1.PreType
+RD.ILQuery.MF = StreetName1,Table1.StreetName
+RD.ILQuery.MF = Type1,Table1.StreetType
+RD.ILQuery.MF = SufDir1,Table1.SufDir
+RD.ILQuery.MF = LeftZone1,Table1.LeftZone
+RD.ILQuery.MF = RightZone1,Table1.RightZone
+RD.ILQuery.MF = Shape,Table1.Shape
+RD.ILQuery.MF = ID,Table1.ID
+
+RD.IRQuery.Where = $IdxTable1.Sx = '@SDEX(%S2%)'
+RD.IRQuery.ConditionalWhere = ZN, " AND ($IdxTable1.ZoneL = '@ZNSX(%ZN%)' OR $IdxTable1.ZoneR = '@ZNSX(%ZN%)')"
+RD.IRQuery.Filter = @SpellSens(%S2%, $Table1.StreetName)
+RD.IRQuery.InvariantWhere = " AND $Table1.ID = $IdxTable1.XID"
+RD.IRQuery.Lox = Lox1
+
+RD.IRQuery.MF = PreDir2,Table1.PreDir
+RD.IRQuery.MF = PreType2,Table1.PreType
+RD.IRQuery.MF = StreetName2,Table1.StreetName
+RD.IRQuery.MF = Type2,Table1.StreetType
+RD.IRQuery.MF = SufDir2,Table1.SufDir
+RD.IRQuery.MF = LeftZone2,Table1.LeftZone
+RD.IRQuery.MF = RightZone2,Table1.RightZone
+RD.IRQuery.MF = Shape,Table1.Shape
+RD.IRQuery.MF = ID,Table1.ID
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Actual Reference Data values
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.Val.IdxTable1 = GC_SZScounty_roads_sp
+RD.Val.IdxTable1.Sx = SX
+RD.Val.IdxTable1.XID = XID
+RD.Val.IdxTable1.ZoneL = LZONE
+RD.Val.IdxTable1.ZoneR = RZONE
+
+RD.Val.Table1 = county_roads_sp
+RD.Val.Table1.ID = FID
+RD.Val.Table1.LeftFrom = FRADDL
+RD.Val.Table1.LeftTo = TOADDL
+RD.Val.Table1.LeftZone = ZIPL
+RD.Val.Table1.PreDir = FEDIRP
+RD.Val.Table1.PreType = 
+RD.Val.Table1.RightFrom = FRADDR
+RD.Val.Table1.RightTo = TOADDR
+RD.Val.Table1.RightZone = ZIPR
+RD.Val.Table1.Shape = Shape
+RD.Val.Table1.StreetName = FENAME
+RD.Val.Table1.StreetType = FETYPE
+RD.Val.Table1.SufDir = FEDIRS
+
+RD.WorkspaceString = ProgID = esriDataSourcesFile.ShapefileWorkspaceFactory.1; Path = E:\Leonard_GEO157\Leonard_Lab02\Riverside_County_SP
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Indexing functions
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.Func = SDEX,mtchloc,SX,""
+RD.Func = ZNSX,mtchloc,ZoneSX,""
+RD.Func = SpellSens,mtchloc,SpellSens,""
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Locator Index (LOX) File
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+RD.LocatorIndex = Lox1
+
+RD.Lox1.Restrict = $Table1.StreetName <> 'UNNAMED STREET' AND $Table1.StreetName <> 'UNNAMED' AND $Table1.StreetName <> '' AND $Table1.StreetName <> ' '
+
+RD.Lox1.SortBy = $IdxTable1.ZoneL,$IdxTable1.ZoneR
+RD.Lox1.SortBy = $Table1.LeftZone,$Table1.RightZone
+RD.Lox1.SortBy = $IdxTable1.Sx
+RD.Lox1.SortBy = $Table1.StreetName
+RD.Lox1.SortBy = $Table1.PreType,$Table1.PreDir,$Table1.SufDir,$Table1.StreetType
+
+RD.Lox1.SubtreeSplit = 1
+RD.Lox1.Tail = $Table1.LeftFrom,$Table1.LeftTo,$Table1.RightFrom,$Table1.RightTo,$Table1.ID,$Table1.Shape
+
+BuildVersion = $Revision: 16$
+BuildVersionDate = $Date: 12/14/2007 5:41:23 PM$
+EmbedGeocodingRules = TRUE
+Fallback = FALSE
+LocatorWorkspaceString = ProgID = esriDataSourcesFile.ShapefileWorkspaceFactory; Path = E:\Leonard_GEO157\Leonard_Lab02\
+
+RdDef::RD.Lox1.Restrict = $Table1.StreetName <> 'UNNAMED STREET' AND $Table1.StreetName <> 'UNNAMED' AND $Table1.StreetName <> '' AND $Table1.StreetName <> ' '
+
+RdOra::RD.Lox1.Restrict = $Table1.StreetName <> 'UNNAMED STREET' AND $Table1.StreetName <> 'UNNAMED' AND $Table1.StreetName IS NOT NULL AND $Table1.StreetName <> ' '
+
+RebuildStartTime = 129316090581240000
+RebuildStartTimeAscii = 9:37:38 AM
+SafeLocatorName = riverside_co_address_locator
+StoreStandardizedRefData = TRUE

@@ -1,0 +1,10 @@
+Sproul Hall A	1		33 58.335	117 19.784	910 ft
+Sproul Hall B	2		33 58.335	117 19.784	1071 ft
+University Theatre A	3	33 58.292	117 19.702	976 ft
+University Theatre B	4	33 58.295	117 19.703	1092 ft
+Bell Tower A	5		33 58.378	117 19.690	1003 ft
+Bell Tower B	6		33 58.380	117 19.691	1066 ft
+HUB A	7			33 58.423	117 19.703	1014 ft
+HUB B	8			33 58.423	117 19.703	1070 ft
+Pierce A	9		33 58.424	117 19.686	1028 ft
+Pierce B	10		33 58.419	117 19.633	1077 ft
