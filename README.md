@@ -22,6 +22,7 @@
 <br />
 <h3>Final Project</h3>
 The goal of this project was to locate areas for the potential development of mountain biking/hiking trails
+<br />
 Several criteria for suitable locations were developed.
 <ul>
 <li>Areas must be on public land</li>
