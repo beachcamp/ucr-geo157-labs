@@ -21,6 +21,13 @@
 <img src="https://github.com/beachcamp/ucr-geo157-labs/blob/master/Leonard_Lab05/Leonard_EQ_Density_Lab05.jpg" />
 <br />
 <h3>Final Project</h3>
+The goal of this project was to locate areas for the potential development of mountain biking/hiking trails
+Several criteria for suitable locations were developed.
+<ul>
+<li>Areas must be on public land</li>
+<li>Areas must have a desirable slope. Flat ground isn't preferable for mountain biking, neither are cliffs</li>
+<li>Finally it was decided to limit the scope of the data to within fifty miles of UC Riverside</li>
+</ul>
 <h4><i>Riverside County with clipped county roads</i></h4>
 <img src="https://github.com/beachcamp/ucr-geo157-labs/blob/master/Leonard_Project/Leonard_FinalProject_roads_county.jpg" />
 <h4><i>Riverside County public lands</i></h4>
